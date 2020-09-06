@@ -29,5 +29,7 @@ User is prompted three times:
 * new_york_city.csv
 * washington.csv
 
+In case you need to extend the list of cities with additional data you have available, just contact me at <paolo.ferrara@gmail.com>
+
 ### Credits
 This project is part of Udacity's Programming for Data Science with Python Nanodegree Program
