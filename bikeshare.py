@@ -134,7 +134,7 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """Displays statistics on the total, average, max and min trip duration."""
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -144,6 +144,12 @@ def trip_duration_stats(df):
 
     # DONE: display mean travel time
     print("Mean travel time : {}".format(df['Trip Duration'].mean()))
+
+    # DONE: display shortest travel time
+    print("Shortes travel time : {}".format(df['Trip Duration'].min()))
+
+    # DONE: display longest travel time
+    print("Longest travel time : {}".format(df['Trip Duration'].max()))
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
