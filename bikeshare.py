@@ -47,13 +47,13 @@ def get_filters():
     
     # DONE: get user input for month
     while True:
-        month = str(input("Insert a valid month from january to june, or 'all' to retrieve data for all months: "))
+        month = str(input("Insert a valid month from january to june, or 'all' to retrieve data for all months: ")).lower()
         if (month in months) or month == 'all':
             break
-    
+
     # DONE: get user input for day
     while True:
-        day = str(input("Insert a day of the week or 'all' to retrieve data for all days: "))
+        day = str(input("Insert a day of the week or 'all' to retrieve data for all days: ")).lower()
         if (day in days or day == 'all'):
             break
         
