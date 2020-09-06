@@ -12,8 +12,10 @@ Interactive Python application that allows the user to analyze bikeshare data fo
 Analysis can be performed optionally filtering by month and / or day of the week.
 
 ### Files used
-Include the files used
+* bikeshare.py
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+This project is part of Udacity's Programming for Data Science with Python Nanodegree Program
